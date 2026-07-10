@@ -160,12 +160,13 @@ Sentiment-Analysis-Internship-Feedback/
 └── .gitignore
 ```
 
-##  Installation
+## ⚙️ Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/areeshabatool1416/Sentiment-Analysis-Internship-Feedback.git```
+git clone https://github.com/areeshabatool1416/Sentiment-Analysis-Internship-Feedback.git
+```
 
 Navigate into the project:
 
