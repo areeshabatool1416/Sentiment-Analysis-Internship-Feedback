@@ -7,11 +7,27 @@
 
 An end-to-end **Machine Learning** and **Natural Language Processing (NLP)** project that analyzes internship feedback using **Logistic Regression** and **TF-IDF Vectorization**. The project includes an interactive **Streamlit** web application for real-time sentiment prediction.
 
+## 📑 Table of Contents
+
+- [🚀 Live Demo](#-live-demo)
+- [📸 Application Preview](#-application-preview)
+- [📖 Project Overview](#-project-overview)
+- [🎯 Problem Statement](#-problem-statement)
+- [📂 Dataset](#-dataset)
+- [✨ Key Features](#-key-features)
+- [🛠️ Technologies Used](#-technologies-used)
+- [🧠 Machine Learning Workflow](#-machine-learning-workflow)
+- [📊 Model Performance](#-model-performance)
+- [📁 Project Structure](#-project-structure)
+- [⚙️ Installation](#-installation)
+- [🔮 Future Improvements](#-future-improvements)
+- [👩‍💻 About the Author](#-about-the-author)
+
 ## Live Demo
 
 🌐 **Streamlit App:** https://sentiment-analysis-internship-feedback-jdufyxzlpjvyx5nka6hwx9.streamlit.app/
 
-📂 **GitHub Repository:** https://github.com/areeshabatool1416/Sentiment-Analysis-Internship-Feedback/tree/main
+📂 **GitHub Repository:** https://github.com/areeshabatool1416/Sentiment-Analysis-Internship-Feedback
 
 ## Application Preview
 
@@ -39,6 +55,29 @@ Organizations receive large amounts of textual feedback from interns. Manually r
 
 This project automates the sentiment analysis process by classifying internship feedback, enabling organizations to quickly identify positive experiences.
 
+## 📂 Dataset
+
+This project uses the **Employee Reviews Dataset** to simulate internship feedback for sentiment analysis.
+
+Since publicly available internship feedback datasets are limited, employee reviews were selected as a representative source of workplace feedback. The dataset contains **67,529 reviews** with fields such as:
+
+- Summary
+- Pros
+- Cons
+- Overall Rating
+
+The textual fields were combined to create a single review for sentiment classification.
+
+## ✨ Key Features
+
+- End-to-end NLP pipeline for text classification.
+- Text preprocessing using NLTK.
+- TF-IDF Vectorization for feature extraction.
+- Logistic Regression model for sentiment prediction.
+- Interactive Streamlit web application.
+- Real-time sentiment analysis.
+- Publicly deployed application.
+
 ##  Technologies Used
 
 - Python
@@ -54,40 +93,44 @@ This project automates the sentiment analysis process by classifying internship 
 
 ##  Machine Learning Workflow
 
-```
 Employee Reviews Dataset
-          │
-          ▼
-Exploratory Data Analysis (EDA)
-          │
-          ▼
+        │
+        ▼
+Exploratory Data Analysis
+(Understand the data)
+        │
+        ▼
 Data Cleaning
-          │
-          ▼
+(Remove irrelevant columns & handle missing values)
+        │
+        ▼
 Text Preprocessing
 (Lowercase, Tokenization, Stopword Removal, Lemmatization)
-          │
-          ▼
+        │
+        ▼
 TF-IDF Vectorization
-          │
-          ▼
+(Convert text into numerical features)
+        │
+        ▼
 Logistic Regression
-          │
-          ▼
+(Train the classifier)
+        │
+        ▼
 Model Evaluation
-          │
-          ▼
+(Accuracy & Performance Metrics)
+        │
+        ▼
 Streamlit Deployment
-```
 
 ## 📊 Model Performance
 
-| Metric | Value |
-|--------|-------|
-| Model | Logistic Regression |
-| Vectorizer | TF-IDF |
-| Accuracy | 73.15% |
-| Dataset Size | 67,529 Reviews |
+| Metric             | Value               |
+| ------------------ | ------------------- |
+| Model              | Logistic Regression |
+| Feature Extraction | TF-IDF Vectorizer   |
+| Accuracy           | **73.15%**          |
+| Dataset Size       | **67,529 Reviews**  |
+
 
 ##  Project Structure
 
@@ -122,8 +165,7 @@ Sentiment-Analysis-Internship-Feedback/
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
-```
+git clone https://github.com/areeshabatool1416/Sentiment-Analysis-Internship-Feedback.git```
 
 Navigate into the project:
 
@@ -155,7 +197,7 @@ streamlit run app/app.py
 
 **Areesha Batool**
 
-Computer Science Student passionate about Artificial Intelligence, Machine Learning, and Data Science. I enjoy building end-to-end ML solutions that solve real-world problems and continuously expanding my technical skills through hands-on projects.
+Computer Science student with a strong interest in Artificial Intelligence, Machine Learning, and Natural Language Processing. Passionate about building end-to-end ML applications and continuously learning through real-world projects.
 
  Feel free to connect with me on LinkedIn!
 https://www.linkedin.com/in/areesha-batool-667651262/
